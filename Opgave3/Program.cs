@@ -17,7 +17,7 @@ namespace Opgave3
             
             int i = 0;
             int outcome = 0;
-            while (outcome != 6 * terninger) //slår med alle terninger og kører indtil alle er 6'eree
+            while (outcome != 1 * terninger) //slår med alle terninger og kører indtil alle er 6'eree
             {
                 i++;
                 outcome = 0;
@@ -30,7 +30,7 @@ namespace Opgave3
                 Console.WriteLine("\n");
                 
             }
-            Console.Write("Det tog #{0:D} kast at slå "+terninger+" 6'ere", i);
+            Console.Write("Det tog #{0:D} kast at slå "+terninger+" 1'ere", i);
         }
     }
 }
